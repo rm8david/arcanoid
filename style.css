@@ -1,0 +1,117 @@
+/* Tipografía personalizada de estilo Retro */
+@font-face {
+    font-family: 'retro'; /* nombre de la fuente */
+    src: url("font/RETROTECH.ttf") format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-image: url(img/fondoretro.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+h1{
+    font-family: retro;
+    color: white;
+    text-align: center;
+    font-size: 52px;
+}
+table{
+    width: 800px;
+    height: 500px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: rgb(237, 175, 5);
+    border-radius: 10px;
+    background-color: rgb(62, 59, 59);
+    margin-left: auto;
+    margin-right: auto;
+}
+tr,td{
+    border-style: groove;
+    border-width: 5px;
+}
+
+td{
+    width: 40px;
+    height: 40px;
+    border-style: outset;
+    border-width: 1px;
+    border-color: grey;
+    border-radius: 2px;
+    background-color: rgb(62, 59, 59);
+}
+
+#score{
+    background-color: black;
+    border-bottom-color: white;
+    border-bottom-width: 5px;
+}
+span{
+    
+    font-family: retro;
+    color: white;
+}
+
+#up{
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    color: red;
+
+}
+
+#puntos{
+    font-size:32px;
+    margin-left: 295px;
+    margin-right: 50px;
+    margin-top: 0px;
+
+}
+#puntos2{
+    font-size:32px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 95%;
+    width: 75%;
+}
+div{ 
+display: block;
+    background-color: white;
+    margin: auto;
+    width: 5px;
+    height: 5px;
+    border:15px solid white;
+    border-radius: 180%;
+}
+.fila1{
+    background-color: rgb(62, 59, 59);
+}
+.fila2{
+    background-color: rgb(239, 5, 5);
+}
+.fila3{
+    background-color: rgb(239, 216, 5);
+}
+.fila4{
+    background-color: blue;
+}
+.fila5{
+    background-color: violet;
+}
+.fila6{
+    background-color: green;
+}
+
+#vacio{
+    border-style: none;
+}
+
